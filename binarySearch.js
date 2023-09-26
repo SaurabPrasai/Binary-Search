@@ -2,7 +2,7 @@ const array=[20,25,38,42,49,57,64,79,86,93] //array must be sorted for binary se
 
 const BinarySearch=(arr,n,key)=>{
 let l=0,r=n-1;
-while(l<r){   
+while(l<=r){   
     let mid=Math.floor((l+r)/2);
     if(key===arr[mid]){
         return mid;
